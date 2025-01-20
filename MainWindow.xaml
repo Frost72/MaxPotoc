@@ -21,6 +21,8 @@
         <Button x:Name="Dinisa" Content="Алгоритм Диница" Width="220" Height="40" Grid.Row="0" FontSize="16" Click="Dinisa_Click"/>
         <Button x:Name="Karzanov" Content="Алгоритм Карзанова " Width="220" Height="40" Grid.Row="1" FontSize="16" Click="Karzanov_Click"/>
         <Button x:Name="Karzanov_Копировать" Content="Алгоритм Эдмондса-Карпа " Width="220" Height="40" Grid.Row="2" FontSize="16" Click="Karp_Click" />
+        <Button x:Name="FordFulkersonButton" Content="Метод Форда-Фалкерсона"  Click="FordFulkersonButton_Click"  Height="40" Width="220" Grid.Row="3" FontSize="16"/>
+        <Button x:Name="LinearProgrammingButton" Content="Метод линейного программирования"  Click="LinearProgrammingButton_Click" FontSize="16" Height="40" Width="220" Grid.Row="4"/>
 
     </Grid>
 </Window>

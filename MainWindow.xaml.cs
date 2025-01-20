@@ -38,5 +38,17 @@ namespace MaxPotoc
             Karp karp = new Karp();
             karp.Show();
         }
+
+        private void FordFulkersonButton_Click(object sender, RoutedEventArgs e)
+        {
+            Ford ford = new Ford();
+            ford.Show();
+        }
+
+        private void LinearProgrammingButton_Click(object sender, RoutedEventArgs e)
+        {
+            Line line = new Line();
+            line.Show();
+        }
     }
 }

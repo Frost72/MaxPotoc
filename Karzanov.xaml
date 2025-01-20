@@ -1,0 +1,22 @@
+﻿<Window x:Class="MaxPotoc.Karzanov"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MaxPotoc"
+        mc:Ignorable="d"
+        Title="Karzanov" Height="450" Width="800">
+    <Grid>
+        <Label Content="Количество вершин:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,10,0,0" />
+        <TextBox Name="VerticesCountTextBox" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Margin="0,30,0,0" />
+
+        <Label Content="Матрица графа:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,60,0,0" />
+        <TextBox Name="GraphInputTextBox" HorizontalAlignment="Left" VerticalAlignment="Top" Width="400" Height="100" Margin="0,80,0,0" VerticalScrollBarVisibility="Visible" AcceptsReturn="True" />
+
+        <Button Content="Решить" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Margin="0,190,0,0" Click="SolveButton_Click"/>
+
+        <Label Content="Результат:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,230,0,0" />
+        <TextBox Name="ResultTextBox" HorizontalAlignment="Left" VerticalAlignment="Top" Width="400" Height="60" Margin="0,250,0,0" IsReadOnly="True" VerticalScrollBarVisibility="Visible"/>
+    
+    </Grid>
+</Window>

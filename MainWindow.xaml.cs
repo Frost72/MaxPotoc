@@ -20,5 +20,17 @@ namespace MaxPotoc
         {
             InitializeComponent();
         }
+
+        private void Dinisa_Click(object sender, RoutedEventArgs e)
+        {
+            Diniza diniza = new Diniza();
+            diniza.Show();
+        }
+
+        private void Karzanov_Click(object sender, RoutedEventArgs e)
+        {
+            Karzanov karzanov = new Karzanov();
+            karzanov.Show();
+        }
     }
 }

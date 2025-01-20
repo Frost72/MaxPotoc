@@ -7,6 +7,19 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+
+        </Grid.RowDefinitions>
+        <Button x:Name="Dinisa" Content="Алгоритм Диница" Width="200" Height="40" Grid.Row="0" FontSize="16" Click="Dinisa_Click"/>
+        <Button x:Name="Karzanov" Content="Алгоритм Карзанова " Width="200" Height="40" Grid.Row="1" FontSize="16" Click="Karzanov_Click"/>
 
     </Grid>
 </Window>

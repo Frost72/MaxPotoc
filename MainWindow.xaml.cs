@@ -32,5 +32,11 @@ namespace MaxPotoc
             Karzanov karzanov = new Karzanov();
             karzanov.Show();
         }
+
+        private void Karp_Click(object sender, RoutedEventArgs e)
+        {
+            Karp karp = new Karp();
+            karp.Show();
+        }
     }
 }

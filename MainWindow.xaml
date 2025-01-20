@@ -18,8 +18,9 @@
             <RowDefinition/>
 
         </Grid.RowDefinitions>
-        <Button x:Name="Dinisa" Content="Алгоритм Диница" Width="200" Height="40" Grid.Row="0" FontSize="16" Click="Dinisa_Click"/>
-        <Button x:Name="Karzanov" Content="Алгоритм Карзанова " Width="200" Height="40" Grid.Row="1" FontSize="16" Click="Karzanov_Click"/>
+        <Button x:Name="Dinisa" Content="Алгоритм Диница" Width="220" Height="40" Grid.Row="0" FontSize="16" Click="Dinisa_Click"/>
+        <Button x:Name="Karzanov" Content="Алгоритм Карзанова " Width="220" Height="40" Grid.Row="1" FontSize="16" Click="Karzanov_Click"/>
+        <Button x:Name="Karzanov_Копировать" Content="Алгоритм Эдмондса-Карпа " Width="220" Height="40" Grid.Row="2" FontSize="16" Click="Karp_Click" />
 
     </Grid>
 </Window>
